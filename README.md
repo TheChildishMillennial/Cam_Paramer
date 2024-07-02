@@ -77,6 +77,4 @@ python cam_extrinsic.py -i demo/input -o demo/output -ivm
 This project incorporates components from the [MLFocalLengths](https://github.com/nandometzger/MLFocalLengths) repository.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details."# Cam_Paramer" 
-"# Cam_Paramer" 
-"# Cam_Paramer" 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
