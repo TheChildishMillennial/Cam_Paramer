@@ -1,0 +1,19 @@
+image_extensions:
+  - .jpg
+  - .jpeg
+  - .png
+  - .bmp
+  - .tiff
+  - .tif
+  - .webp
+
+video_extensions:
+  - .mp4
+  - .avi
+  - .mov
+  - .mkv
+  - .wmv
+  - .webm
+  - .mpg
+  - .mpeg
+  - .3gp
