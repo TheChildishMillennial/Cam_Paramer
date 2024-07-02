@@ -61,7 +61,8 @@ To set up the project, follow these steps:
 
 ### Example
 To estimate the camera intrinsic matrix for files in `demo/input` and save the results to `demo/output`:
-```python cam_intrinsic.py -i demo/input -o demo/output
+```
+python cam_intrinsic.py -i demo/input -o demo/output
 ```
 
 To estimate both the camera intrinsic and extrinsic matrices, with motion interpolation, for files in `demo/input` and save the results to `demo/output`:
