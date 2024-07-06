@@ -41,7 +41,7 @@ To set up the project, follow these steps:
 - Use `cam_intrinsic.py` to estimate the camera intrinsic matrix.
 - Command:
     ```
-    python cam_intrinsic.py [-i INPUT] [-o OUTPUT]
+    python demo/cam_intrinsic.py [-i INPUT] [-o OUTPUT]
     ```
 - **Automatic Mode:** Place files in `demo/input`, and results will be saved to `demo/output`.
 
@@ -49,7 +49,7 @@ To set up the project, follow these steps:
 - Use `cam_extrinsic.py` to estimate both the camera intrinsic and extrinsic matrices.
 - Command:
     ```
-    python cam_extrinsic.py [-i INPUT] [-o OUTPUT] [-ivm]
+    python demo/cam_extrinsic.py [-i INPUT] [-o OUTPUT] [-ivm]
     ```
 - **Automatic Mode:** Place files in `demo/input`, and results will be saved to `demo/output`.
 
@@ -62,12 +62,12 @@ To set up the project, follow these steps:
 ### Example
 To estimate the camera intrinsic matrix for files in `demo/input` and save the results to `demo/output`:
 ```
-python cam_intrinsic.py -i demo/input -o demo/output
+python demo/cam_intrinsic.py -i demo/input -o demo/output
 ```
 
 To estimate both the camera intrinsic and extrinsic matrices, with motion interpolation, for files in `demo/input` and save the results to `demo/output`:
 ```
-python cam_extrinsic.py -i demo/input -o demo/output -ivm
+python demo/cam_extrinsic.py -i demo/input -o demo/output -ivm
 ```
 
 ### Note
