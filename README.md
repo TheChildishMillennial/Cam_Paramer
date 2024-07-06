@@ -12,7 +12,7 @@ To set up the project, follow these steps:
 
 1. **Clone the repository:**
     ```
-    git clone https://github.com/your-repository/CamParamer.git
+    git clone https://github.com/TheChildishMillennial/Cam_Paramer.git
     cd CamParamer
     ```
 
